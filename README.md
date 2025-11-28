@@ -12,7 +12,7 @@ Press F12 on your keyboard to open developer tools and click on the **console** 
 
 ### Step 3
 
-Copy the script below and paste it into the console and press **Enter**
+Copy the script below, paste it into the console and press **Enter**
 
 ```
 if (typeof images !== 'undefined') {
@@ -44,7 +44,8 @@ Click the links that appear in the top right of the page to download your images
 
 ## Had a different photo company or the script didn't work? Try this one!
 
-```if (typeof images !== 'undefined') {
+```
+if (typeof images !== 'undefined') {
     const highResImages = images.filter(img => img.hirescdn);
    
     if (highResImages.length > 0) {
@@ -130,4 +131,5 @@ Click the links that appear in the top right of the page to download your images
     }
 } else {
     console.log('Images array not found. Please ensure the page has fully loaded before running this script.');
-}```
+}
+```
